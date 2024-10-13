@@ -1,0 +1,953 @@
+/*==== Custom Font Started ====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*==== Custom Font Ended ====*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    /* background-color: #121212; */
+    font-family: "Lato", sans-serif;
+    letter-spacing: 3%;
+}
+
+.clear{
+    clear: both;
+}
+/*================================
+      Main Container Started
+=================================*/
+
+.container{
+    max-width: 1280px;
+    max-height: 6400px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    background-color: #121212;
+}
+
+/*===========================
+      Header Started
+============================*/
+
+header{
+    position: fixed;
+    margin-top: 20px;
+}
+
+.RDK{
+    float: left;
+}
+
+nav{
+    float: left;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0px 0px 0px 290px;
+}
+
+nav ul li{
+    gap: 10px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: normal;
+    color: #959595;
+}
+
+
+nav ul li a:hover{
+    font-weight: bold;
+    color:#FD6F00;
+    font-weight: bold;
+}
+
+
+.nav-btn{
+    width: 141px;
+    height: 43px;
+    padding: 6px 20px 6px 20px;
+    margin: -9px 0px 0px 200px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FD6F00;
+    color: #FFFFFF;
+    letter-spacing: 3%;
+    font-size: 20px;
+    font-weight: bold;
+    z-index:2;
+}
+/*===========================
+      Header Ended
+============================*/
+
+
+/*===========================
+      Main Started
+============================*/
+
+/*===========================
+      Hero Started
+============================*/
+.hero-section{
+    height: 781px;
+    width: 1280px;
+    position: relative;
+    margin-top: 120px;
+}
+
+.hero-tittle{
+    float: left;
+    width: 534px;
+    height: 568px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.hero-tittle-text{
+    line-height: 60px;
+}
+
+.hero-tittle h6{
+    color: #707070;
+    font-size: 24px;
+    letter-spacing: 3%;
+    line-height: 30px;
+}
+
+
+.hero-tittle h4{
+    color: #959595;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 3%;
+}
+
+
+.Web-Designer{
+    margin-top: 20px;
+}
+
+.hero-social{
+    width: 220px;
+    height: 56px;
+    float: left;
+    margin-top: 17px;
+}
+
+.hero-social i{
+    margin: 3px;
+}
+
+.fa-brands{
+    font-size: 35px;
+    color: #575757;
+    border-radius: 50%;
+}
+
+.hero-social .fa-linkedin{
+    margin-left: 13%;
+}
+
+.hero-social .fa-youtube{
+    margin-left: 26%;
+}
+
+.hero-social .fa-github{
+    margin-left: 39%;
+}
+
+.hero-btn{
+    width: 389px;
+    height: 48px;
+    float: left;
+    margin-top: 61px;
+}
+
+.hero-btn-hire{
+    float: left;
+    width: 156px;
+    height: 48px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FD6F00;
+    color: #FFFFFF;
+    letter-spacing: 3%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Download-cv{
+    float: right;
+    width: 209px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 6px 20px 6px 20px;
+    letter-spacing: 3%;
+    font-weight: bold;
+    font-size: 20px;
+    color: #959595;
+    border: 2px solid #959595;
+    background-color: #121212;
+}
+
+
+
+.hero-box{
+    width: 534px;
+    height: 125px;
+    position: relative;
+    margin-top: 80px;
+    background-color: #121212;
+}
+
+
+
+.hero-experience{
+    position:absolute;
+    width: 144px;
+    height: 77px;
+    border-right: 3px solid #DFDFDF;
+}
+
+.hero-experience h5{
+    font-weight: bolder;
+    font-size: 24px;
+    color: #FD6F00;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.hero-experience span{
+    color: #DFDFDF;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3%;
+    line-height: auto;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+.hero-project{
+    position:absolute;
+    width: 170px;
+    height: 77px;
+    border-right: 3px solid #DFDFDF;
+    margin-left: 130px;
+}
+
+
+.hero-project h5{
+    font-weight: bolder;
+    font-size: 24px;
+    color: #FD6F00;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+.hero-project span{
+    color: #DFDFDF;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3%;
+    line-height: auto;
+    margin-left: 30px;
+}
+
+
+.hero-clients{
+    position:absolute;
+    width: 132px;
+    height: 77px;
+    margin-left: 320px;
+}
+
+
+
+.hero-clients h5{
+    font-weight: bolder;
+    font-size: 24px;
+    color: #FD6F00;
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.hero-clients span{
+    color: #DFDFDF;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3%;
+    line-height: auto;
+    margin-left: 0px;
+}
+
+
+/* Hero Image Started */
+
+.hero-img{
+    float: right;
+    height:618;
+    height: 781PX;
+    position: relative;
+    margin: 0 auto;
+    margin-right: 600px;
+}
+
+.hero-img-border{
+    position:absolute;
+    width: 618px;
+    height: 618px;
+    border-radius:50%;
+    background-color: #222121;
+}
+
+
+.hero-img-picture{
+    position: absolute;
+    width: 520px;
+    height: 781px;
+    border-radius: 244px;
+    z-index: 1;
+}
+
+.my-img{
+    width: 520px;
+    height: 781px;
+    margin-top: -200px;
+}
+
+
+/*===========================
+      Hero Ended
+============================*/
+
+
+
+/*===========================
+      Services Started
+============================*/
+
+.Services{
+    width: 1280px;
+    height: 862px;
+}
+
+.services-tittle{
+    text-align: center;
+}
+
+.services-tittle h5{
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3%;
+    color: #FEFEFE;
+}
+
+.services-tittle p{
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 160%;
+    letter-spacing: 3%;
+    color: #707070;
+}
+
+.service-card{
+    margin-top: 80px;
+}
+
+.service-card1{
+    height: 322px;
+    width: 1280px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-card1 .card-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+    padding: 34px 34px;
+    background-color: #575757;
+    text-align: center;
+}
+
+
+.service-card1 .card-1 .fa-solid{
+    color: #FD6F00;
+    font-size: 40px;
+    margin: 20px;
+}
+
+
+.service-card1 .card-1 h5{
+    color: #FD6F00;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3%;
+
+}
+
+
+.service-card1 .card-1 p{
+    color: #979696;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 50px;
+}
+
+
+
+
+.service-card2{
+    height: 322px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.service-card2 .card-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 24px;
+    padding: 34px 34px;
+    background-color: #575757;
+    text-align: center;
+}
+
+
+.service-card2 .card-1 .fa-solid{
+    color: #FD6F00;
+    font-size: 40px;
+    margin: 20px;
+}
+
+
+.service-card2 .card-1 h5{
+    color: #FD6F00;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 3%;
+
+}
+
+
+.service-card2 .card-1 p{
+    color: #979696;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 50px;
+}
+/*===========================
+      Services Ended
+============================*/
+
+
+/*===========================
+      About Me Started
+============================*/
+
+.about-me{
+    width: 1280px;
+    height: 1273px;
+    margin-top: 150px;
+}
+
+.about-tittle{
+    text-align: center;
+}
+
+.about-me h5{
+    color: #FEFEFE;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.about-me p{
+    color: #707070;
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.about-img{
+    height: 808px;
+    width: 1280px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.about-pic{
+    float: left;
+    width: 566px;
+    margin-right: 50.5px;
+    border: 2px solid white;
+}
+
+.about-details{
+    float: right;
+    width: 631px;
+    height: 582px;
+    margin-left: 50.5px;
+    align-items: center;
+    display: flex;
+}
+
+.about-details p{
+    color: #959595;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 190%;
+}
+
+.about-d-cv{
+    width: 224px;
+    height: 48px;
+    background-color: #E46400;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 6px 15px 6px 15px;
+    border: none;
+    position: absolute;
+    margin: 30% 0% 0% 34%;
+}
+
+
+/* About Experience */
+
+.about-experience{
+    width: 1277px;
+    height: 227px;
+    margin: 0 auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-experience .card-1{
+    width: 200px;
+    height: 227px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
+.fa-brands{
+    color: #D9D9D9;
+    background-color: transparent;
+    font-size: 50px;
+    margin-top: 11px;
+    position: absolute;
+    margin-left: 34px;
+}
+
+.about-experience .card-1 .card-1-1{
+    border: 12px solid #FD6F00;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+}
+
+.about-experience .card-1 .card-1-2{
+    width: 177px;
+    height: 73px;
+    position:absolute;
+    margin-top: 140px;
+}
+
+.about-experience .card-1 .card-1-2 h5{
+    color: #FD6F00;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.about-experience .card-1 .card-1-2 p{
+    color: #959595;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fa-bootstrap{
+    color: #D9D9D9;
+    background-color: transparent;
+    font-size: 50px;
+    margin-top: 10px;
+    position: absolute;
+    margin-left: 28px;
+}
+
+
+/*===========================
+      About Me Ended
+============================*/
+
+/*===========================
+      Portfolio Started
+============================*/
+
+.portfolio{
+    width: 1280px;
+    height: 1879px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-tittle{
+    width: 941px;
+    height: 142px;
+    text-align: center;
+}
+
+.portfolio-tittle h5{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FEFEFE;
+    margin-bottom: 20px;
+}
+
+.portfolio-tittle button{
+    background-color: #454545;
+    color: #ffffff;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    margin-top: 40px;
+}
+
+.portfolio-tittle button:hover{
+    background-color: #FD6F00;
+    font-size: 18px;
+}
+
+
+.portfolio-tittle .All{
+    width: 100px;
+    height: 54px;
+    background-color: #FD6F00;
+    padding: 7px 20px 7px 20px;
+    font-size: 18px;
+}
+
+.portfolio-tittle .Website-Design{
+    width: 199px;
+    height: 54px;
+    padding: 7px 20px 7px 20px;
+    font-size: 18px;
+}
+
+.portfolio-tittle .Apps-Design{
+    width: 199px;
+    height: 54px;
+    padding: 7px 20px 7px 20px;
+    font-size: 18px;
+}
+
+.portfolio-tittle .Games-Design{
+    width: 199px;
+    height: 54px;
+    padding: 7px 20px 7px 20px;
+    font-size: 18px;
+}
+
+.portfolio-tittle .Other{
+    width: 199px;
+    height: 54px;
+    padding: 7px 20px 7px 20px;
+    font-size: 18px;
+}
+
+.portfolio-img{
+    height: 1467px;
+    width: 1280px;
+    margin-top: 270px;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+}
+
+.portfolio-img img {
+    width: 415px;
+    height: 473px;
+}
+
+.portfolio-img2{
+    margin-top: 40%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+}
+
+.portfolio-img img {
+    width: 415px;
+    height: 473px;
+}
+
+.portfolio-img3{
+    margin-top: 66%;
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+}
+
+.portfolio-img img {
+    width: 415px;
+    height: 473px;
+}
+
+/*===========================
+      Portfolio Ended
+============================*/
+
+/*===========================
+     Contact Me Started
+============================*/
+.contact-me{
+    width: 1012px;
+    height: 556px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.contact-me h5{
+    font-weight: bold;
+    color: #FEFEFE;
+    font-size: 40px;
+}
+
+.contact-me p{
+    font-weight: normal;
+    font-size: 20px;
+    color: #707070;
+    margin-top: 18px;
+}
+
+.contact-form{
+    width: 1012px;
+    height: 408px;
+    margin-top: 50px;
+}
+
+.contact-form input{
+    outline: none;
+}
+
+.contact-form .box1{
+    float: left;
+}
+
+.contact-form .box1 input{
+    width: 465px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 7px 12px 7px 12px;
+    background-color: #272727;
+    border: none;
+    color: #959595;
+    margin: 10px;
+}
+
+.contact-form .box2{
+    float: right;
+}
+
+.contact-form .box2 input{
+    width: 465px;
+    height: 44px;
+    border-radius: 8px;
+    padding: 7px 12px 7px 12px;
+    background-color: #272727;
+    border: none;
+    color: #959595;
+    display: flex;
+    margin-top: 1%;
+}
+
+
+.contact-form .box2 button{
+    width: 127px;
+    height: 48px;
+    padding: 6px 20px 6px 20px;
+    border: 2px solid #959595;
+    border-radius: 8px;
+    background-color: #272727;
+    color: #959595;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+
+
+
+.contact-form .box2 .project-details{
+    height: 132px;
+}
+
+
+/*===========================
+      Contact Me Ended
+============================*/
+
+
+/*===========================
+      Main Ended
+============================*/
+
+
+/*===========================
+      Footer Started
+============================*/
+
+.footer-details{
+    height: 426px;
+    width: 100%;
+    background-color: #272727;
+    margin-top: 150px;
+    border:2px solid #272727;
+}
+
+.footer-details .footer-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footer-img img{
+    height: 39px;
+    width: 80px;
+}
+
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.footer-nav ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color: #959595;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+.footer-nav ul li a:hover{
+    font-weight: bold;
+    color:#FD6F00;
+    font-weight: bold;
+}
+
+
+.footer-social{
+    width: 220px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.footer-social .fa-brands{
+    font-size: 30px;
+    color: #575757;
+    border-radius: 50%;
+}
+
+.footer-social i{
+    margin: 2px;
+    margin-left: -20px;
+}
+
+.footer-contact{
+    width: 592px;
+    height: 24px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+}
+
+.footer-contact a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #959595;
+}
+
+.footer-contact .phone{
+    margin-left: 55px;
+}
+
+.footer-contact .fa-solid{
+    margin-right: 10px;
+}
+
+.horizantel-line{
+    margin-top: 50px;
+}
+
+.horizantel-line hr{
+    border: 1px solid #979696;
+    opacity: 0.5;
+}
+
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.copyright span{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #979696;
+}
+/*===========================
+      Footer Ended
+============================*/
+
+
+/*================================
+      Main Container Started
+=================================*/
+
+
+
+
+/*================================================
+                Alhamdulillah Done
+================================================*/
